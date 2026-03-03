@@ -41,6 +41,7 @@ Tambié se puede ver que en el job de test, se ha generado un fichero de texto y
 ---
 
 Respondiendo a las preguntas del test:
+
 Q: What are the main challenges to apply key rotation? and what impacts you can identify?
 A: The main challenge I see here is the handling exteral key without compromising it. The
    impact can be unusable data if the rotation doesn´t go through.
