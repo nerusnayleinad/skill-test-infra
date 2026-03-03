@@ -27,7 +27,7 @@ Este proceso se hace en un pipeline de GitLab, que se encarga de:
   - Envolver/cifrar la key material
   - Transportarlo a KMS
   - Hacer un pequeño test en S3 para asegurarnos que la key funciona.
-  - 
+    
 <img width="1401" height="797" alt="Screenshot 2026-03-03 at 13-30-59 Pipeline #74 · Administrator _ task1 · GitLab" src="https://github.com/user-attachments/assets/0160b76b-b433-4109-bd46-0af3f135e527" />
 
 Una vez el pipeline se acaba, se debería de ver que la Key ya está disponible para el uso (tiene la key material asociada)
@@ -38,6 +38,7 @@ Tambié se puede ver que en el job de test, se ha generado un fichero de texto y
 
 <img width="1710" height="1495" alt="Screenshot 2026-03-03 at 12-42-20 quotes_quote-5649691a txt - Object in S3 bucket bucket-cgicom-task1-dev-us-east-2 S3 us-east-2" src="https://github.com/user-attachments/assets/1a1467a0-0c19-41b8-831d-dbc59fcd055e" />
 
+---
 
 Respondiendo a las preguntas del test:
 Q: What are the main challenges to apply key rotation? and what impacts you can identify?
